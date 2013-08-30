@@ -1,37 +1,43 @@
 table.papertable, table.papertable td {
     border: none;
     text-align: left;
+    padding: 15px;
 }
 
-summary {
-    font-family: Times;
+table.papertable img {
+  width: 150px;
+  height: 150px;
+}
+
+span.summary {
+    /*font-family: Times;*/
     font-size: 100%;
     color:  #808080;
 }
 
-papertitle {
+span.papertitle {
     font-size: 100%;
-    font-family: Georgia, serif;
+    /*font-family: Georgia, serif;*/
     font-weight: bold;
 }
 
-authors {
+span.authors {
     font-size: 80%;
-    font-family: Georgia, serif;
+    /*font-family: Georgia, serif;*/
 }
 
-meeting {
+span.meeting {
     font-size: 80%;
-    font-family: Georgia, serif;
+    /*font-family: Georgia, serif;*/
     font-style: italic;
 }
 
-year {
+span.year {
     font-size: 80%;
-    font-family: Georgia, serif;
+    /*font-family: Georgia, serif;*/
 }
 
-capt {
+span.capt {
     font-size: 80%;
-    font-family: Georgia, serif;
+    /*font-family: Georgia, serif;*/
 }
