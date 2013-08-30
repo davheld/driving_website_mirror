@@ -1,0 +1,37 @@
+table.papertable, table.papertable td {
+    border: none;
+    text-align: left;
+}
+
+summary {
+    font-family: Times;
+    font-size: 100%;
+    color:  #808080;
+}
+
+papertitle {
+    font-size: 100%;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+authors {
+    font-size: 80%;
+    font-family: Georgia, serif;
+}
+
+meeting {
+    font-size: 80%;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+year {
+    font-size: 80%;
+    font-family: Georgia, serif;
+}
+
+capt {
+    font-size: 80%;
+    font-family: Georgia, serif;
+}
