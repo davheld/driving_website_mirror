@@ -114,7 +114,7 @@
         </span>
     </p>
     <p>
-        <a class="paperlink" href="http://ijr.sagepub.com/content/31/7/804">sage</a>,&nbsp;
+        <a class="paperlink" href="http://ijr.sagepub.com/content/31/7/804">pdf (sage)</a>,&nbsp;
         <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijrr2012.bib">bib</a>
     </p>
 
@@ -299,7 +299,7 @@
         </span>
     </p>
     <p>
-        <a class="paperlink" href="/papers/ISER2012.pdf">pdf</a>,&nbsp;
+        <!--<a class="paperlink" href="/papers/ISER2012.pdf">pdf</a>,&nbsp;-->
         <a class="paperlink" href="/papers/ISER2012.bib">bib</a>
     </p>
 
