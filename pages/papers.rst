@@ -5,34 +5,14 @@
 .. title: Publications
 .. slug: papers
 
-.. csv-table::
-   :class: papertable
-   :widths: 1, 99
 
-   "|rss2013_img|", "|rss2013_desc|"
-   "|tase2013_img|", "|tase2013_desc|"
-   "|RSS2013_img|", "|RSS2013_desc|"
-   "|ISER2012_img|", "|ISER2012_desc|"
-   "|rss2012_f_img|", "|rss2012_f_desc|"
-   "|ijrr2012_img|", "|ijrr2012_desc|"
-   "|wafr2012_b_img|", "|wafr2012_b_desc|"
-   "|arso2011_img|", "|arso2011_desc|"
-   "|rss2011_b_img|", "|rss2011_b_desc|"
-   "|icra2011_img|", "|icra2011_desc|"
-   "|iv2011_img|", "|iv2011_desc|"
-   "|ICRA2011_img|", "|ICRA2011_desc|"
-   "|ISER2010_img|", "|ISER2010_desc|"
-   "|ICRA2010_img|", "|ICRA2010_desc|"
-   "|ijcai2009_img|", "|ijcai2009_desc|"
-   "|ijrr2008_img|", "|ijrr2008_desc|"
-   "|RSS2007_img|", "|RSS2007_desc|"
+.. raw:: html
 
+    <table class="papertable">
+    <tr><td class="img">&nbsp;</td><td class="desc">&nbsp;</td></tr>
 
-   
-.. |rss2013_img| image:: http://cs.stanford.edu/people/teichman/img/rss2013-b.jpg
-
-.. |rss2013_desc| raw:: html
-
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/rss2013-b.jpg"/></td>
+    <td>
     <p>
         <span class="papertitle">Unsupervised intrinsic calibration of depth sensors via SLAM</span> <BR>
         <span class="authors">Alex Teichman, Stephen Miller, and Sebastian Thrun.</span> <BR>
@@ -53,12 +33,13 @@
         <a class="paperlink" href="http://roboticsproceedings.org/rss09/p27.html">rss link</a>,&nbsp;
         <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/rss2013.bib">bib</a>
     </p>
+    </td></tr>
+
+    
 
 
-.. |tase2013_img| image:: http://cs.stanford.edu/people/teichman/img/tase2013-b.jpg
-
-.. |tase2013_desc| raw:: html
-
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/tase2013-b.jpg"/></td>
+    <td>
     <p>
         <span class="papertitle">Learning to segment and track in RGBD</span> <BR>
         <span class="authors">Alex Teichman, Jake Lussier, and Sebastian Thrun.</span> <BR>
@@ -74,192 +55,12 @@
         <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/tase2013.pdf">pdf</a>,&nbsp;
         <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/tase2013.bib">bib</a>
     </p>
-
-   
-.. |rss2012_f_img| image:: http://cs.stanford.edu/people/teichman/img/rss2012_f.png
-
-.. |rss2012_f_desc| raw:: html
-
-    <p>
-        <span class="papertitle">Online, semi-supervised learning for long-term interaction with object recognition systems</span> <BR>
-        <span class="authors">Alex Teichman and Sebastian Thrun.</span> <BR>
-        <span class="meeting">Invited talk at RSS Workshop on Long-term Operation of Autonomous Robotic Systems in Changing Environments,</span>&nbsp;<span class="year">2012.</span> <BR>
-        <span class="summary">Tracking-based semi-supervised learning, as originally
-          presented at RSS2011, was an offline algorithm.  This is fine in some
-          contexts, but ideally a user could provide new hand-labeled training
-          examples online, as the system runs, without retraining from scratch.
-          Qualitatively, this would mean the ability to point out - from the
-          back seat of your autonomous car - a few examples of, say, an
-          <a class="paperlink" href="http://pbanews.org/wp-content/uploads/2010/09/Elliptical-Bike.jpg" target="_blank">
-          elliptical bike</a> or
-          <a class="paperlink" href="http://www.carve.cz/wp-content/uploads/2012/08/ladronkasurfskate-19.jpg" target="_blank">
-          sk8poler</a>, and tracking-based semi-supervised learning would start learning to
-          recognize them on the fly without you having to do anything else.
-          This talk discusses some preliminary work in this direction.
-        </span>
-    </p>
-    <p><a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/rss2012_presentation.pdf">presentation</a></p>
+    </td></tr>
 
 
-.. |ijrr2012_img| image:: http://cs.stanford.edu/people/teichman/img/ijrr2012.png
 
-.. |ijrr2012_desc| raw:: html
-
-    <p>
-        <span class="papertitle">Tracking-based semi-supervised learning</span> <BR>
-        <span class="authors">Alex Teichman and Sebastian Thrun.</span> <BR>
-        <span class="meeting">International Journal of Robotics Research (IJRR),</span>&nbsp;<span class="year">2012</span>. <BR>
-        <span class="summary">Extended journal version of previous work with the same title.
-          More experiments, more intuition as to how the method works.
-        </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://ijr.sagepub.com/content/31/7/804">pdf (sage)</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijrr2012.bib">bib</a>
-    </p>
-
-
-.. |wafr2012_b_img| image:: http://cs.stanford.edu/people/teichman/img/wafr2012-b.jpg
-
-.. |wafr2012_b_desc| raw:: html
-
-    <p>
-        <span class="papertitle">Learning to segment and track in RGBD</span> <BR>
-        <span class="authors">Alex Teichman and Sebastian Thrun.</span> <BR>
-        <span class="meeting">Workshop on the Algorithmic Foundations of Robotics (WAFR),</span>&nbsp;<span class="year">2012</span>. <BR>
-        <span class="summary">Tracking-based semi-supervised learning requires some method
-          of model-free segmentation and tracking. This paper describes a method
-          of model-free segmentation and tracking that can work in a broad range
-          of environments where segmentation is non-trivial.
-        </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/wafr2012.pdf">pdf</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/wafr2012.bib">bib</a>
-    </p>
-
-
-.. |arso2011_img| image:: http://cs.stanford.edu/people/teichman/img/arso2011.png
-
-.. |arso2011_desc| raw:: html
-    
-    <p>
-        <span class="papertitle">Practical object recognition in autonomous driving and beyond</span> <BR>
-        <span class="authors">Alex Teichman and Sebastian Thrun.</span> <BR>
-        <span class="meeting">IEEE Workshop on Advanced Robotics and its Social Impacts (ARSO),</span>&nbsp;<span class="year">2011</span>. <BR>
-        <span class="summary">This paper gives an overview of the recent object recognition
-          research in our lab and what is needed to make it a fully functional,
-          high accuracy object recognition system that is applicable beyond
-          perception for autonomous driving.
-        </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/arso2011.pdf">pdf</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/arso2011.bib">bib</a>
-    </p>
-
-
-.. |rss2011_b_img| image:: http://cs.stanford.edu/people/teichman/img/rss2011_b.jpg
-
-.. |rss2011_b_desc| raw:: html
-
-    <p>
-        <span class="papertitle">Tracking-based semi-supervised learning</span> <BR>
-        <span class="authors">Alex Teichman and Sebastian Thrun.</span> <BR>
-        <span class="meeting">Robotics: Science and Systems (RSS),</span>&nbsp;<span class="year">2011</span>. <BR>
-        <span class="summary">Building on previous work, we introduce a simple semi-supervised
-          learning method that uses tracking information to find new, useful training
-          examples automatically. This method achieves nearly the same accuracy
-          as before, but with about two orders of magnitude less human labeling effort.
-        </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/rss2011.pdf">pdf</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/rss2011.bib">bib</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/rss2011.html">project</a>,&nbsp;
-        <a class="paperlink" href="http://www.roboticsproceedings.org/rss07/p42.html">RSS proceedings</a>
-    </p>
-
-
-.. |icra2011_img| image:: http://cs.stanford.edu/people/teichman/img/icra2011.jpg
-
-.. |icra2011_desc| raw:: html
-
-    <p>
-        <span class="papertitle">Towards 3D object recognition via classification of arbitrary object tracks</span> <BR>
-        <span class="authors">Alex Teichman, Jesse Levinson, and Sebastian Thrun.</span> <BR>
-        <span class="meeting">International Conference on Robotics and Automation (ICRA),</span>&nbsp;<span class="year">2011</span>. <BR>
-        <span class="summary">Breaking down the object recognition problem into segmentation,
-          tracking, and track classification components, we show an accurate and
-          real-time method of classifying tracked objects as car, pedestrian,
-          bicyclist, or 'other'.
-        </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/icra2011.pdf">pdf</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/icra2011.bib">bib</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/stc/">dataset</a>
-    </p>
-
-
-.. |iv2011_img| image:: http://cs.stanford.edu/people/teichman/img/iv2011.jpg
-
-.. |iv2011_desc| raw:: html
-    
-    <p>
-        <span class="papertitle">Towards fully autonomous driving: systems and algorithms</span> <BR>
-        <span class="authors">Jesse Levinson, Jake Askeland, Jan Becker, Jennifer Dolson, David Held,
-          Soeren Kammel, J. Zico Kolter, Dirk Langer, Oliver Pink, Vaughan Pratt,
-          Michael Sokolsky, Ganymed Stanek, David Stavens, Alex Teichman,
-          Moritz Werling, and Sebastian Thrun.</span> <BR>
-        <span class="meeting">Intelligent Vehicles Symposium,</span>&nbsp;<span class="year">2011.</span> <BR>
-        <span class="summary">This paper is a broad summary of recent work on Junior,
-          Stanford's autonomous vehicle. Topics covered include object recognition,
-          sensor calibration, planning, control, etc.
-        </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/iv2011.pdf">pdf</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/iv2011.bib">bib</a>
-    </p>
-
-
-.. |ijcai2009_img| image:: http://cs.stanford.edu/people/teichman/img/ijcai2009.jpg
-
-.. |ijcai2009_desc| raw:: html
-
-    <p>
-        <span class="papertitle">Exponential family sparse coding with application to self-taught learning</span> <BR>
-        <span class="authors">Honglak Lee, Rajat Raina, Alex Teichman, and Andrew Y. Ng.</span> <BR>
-        <span class="meeting">International Joint Conference on Artificial Intelligence (IJCAI),</span>&nbsp;<span class="year">2009.</span> <BR>
-        <span class="summary"> </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijcai2009.pdf">pdf</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijcai2009.bib">bib</a>
-    </p>
-
-
-.. |ijrr2008_img| image:: http://cs.stanford.edu/people/teichman/img/ijrr2008.jpg
-
-.. |ijrr2008_desc| raw:: html
-
-    <p>
-        <span class="papertitle">Automatic configuration recognition methods in modular robots</span> <BR>
-        <span class="authors">Michael Park, Sachin Chitta, Alex Teichman, Mark Yim</span> <BR>
-        <span class="meeting">International Journal of Robotics Research (IJRR),</span>&nbsp;<span class="year">2008.</span> <BR>
-        <span class="summary"> </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijrr2008.pdf">pdf</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijrr2008.bib">bib</a>
-    </p>
-
-
-.. |RSS2013_img| image:: /papers/RSS2013.jpg
-
-.. |RSS2013_desc| raw:: html
-
+    <tr><td><img src="/papers/RSS2013.jpg"/></td>
+    <td>
     <p>
         <span class="papertitle">Automatic Online Calibration of Cameras and Lasers</span> <BR>
         <span class="authors">Jesse Levinson and Sebastian Thrun.</span> <BR>
@@ -279,12 +80,13 @@
         <a class="paperlink" href="/papers/RSS2013.pdf">pdf</a>,&nbsp;
         <a class="paperlink" href="/papers/RSS2013.bib">bib</a>
     </p>
+    </td></tr>
 
 
-.. |ISER2012_img| image:: /papers/ISER2012.jpg
 
-.. |ISER2012_desc| raw:: html
 
+    <tr><td><img src="/papers/ISER2012.jpg"/></td>
+    <td>
     <p>
         <span class="papertitle">Automatic Calibration of Cameras and Lasers in Arbitrary Scenes</span> <BR>
         <span class="authors">Jesse Levinson and Sebastian Thrun.</span> <BR>
@@ -302,12 +104,158 @@
         <!--<a class="paperlink" href="/papers/ISER2012.pdf">pdf</a>,&nbsp;-->
         <a class="paperlink" href="/papers/ISER2012.bib">bib</a>
     </p>
+    </td></tr>
 
 
-.. |ICRA2011_img| image:: /papers/ICRA2011.jpg
 
-.. |ICRA2011_desc| raw:: html
 
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/rss2012_f.png"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Online, semi-supervised learning for long-term interaction with object recognition systems</span> <BR>
+        <span class="authors">Alex Teichman and Sebastian Thrun.</span> <BR>
+        <span class="meeting">Invited talk at RSS Workshop on Long-term Operation of Autonomous Robotic Systems in Changing Environments,</span>&nbsp;<span class="year">2012.</span> <BR>
+        <span class="summary">Tracking-based semi-supervised learning, as originally
+          presented at RSS2011, was an offline algorithm.  This is fine in some
+          contexts, but ideally a user could provide new hand-labeled training
+          examples online, as the system runs, without retraining from scratch.
+          Qualitatively, this would mean the ability to point out - from the
+          back seat of your autonomous car - a few examples of, say, an
+          <a class="paperlink" href="http://pbanews.org/wp-content/uploads/2010/09/Elliptical-Bike.jpg" target="_blank">
+          elliptical bike</a> or
+          <a class="paperlink" href="http://www.carve.cz/wp-content/uploads/2012/08/ladronkasurfskate-19.jpg" target="_blank">
+          sk8poler</a>, and tracking-based semi-supervised learning would start learning to
+          recognize them on the fly without you having to do anything else.
+          This talk discusses some preliminary work in this direction.
+        </span>
+    </p>
+    <p><a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/rss2012_presentation.pdf">presentation</a></p>
+    </td></tr>
+
+    
+
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/ijrr2012.png"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Tracking-based semi-supervised learning</span> <BR>
+        <span class="authors">Alex Teichman and Sebastian Thrun.</span> <BR>
+        <span class="meeting">International Journal of Robotics Research (IJRR),</span>&nbsp;<span class="year">2012</span>. <BR>
+        <span class="summary">Extended journal version of previous work with the same title.
+          More experiments, more intuition as to how the method works.
+        </span>
+    </p>
+    <p>
+        <a class="paperlink" href="http://ijr.sagepub.com/content/31/7/804">pdf (sage)</a>,&nbsp;
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijrr2012.bib">bib</a>
+    </p>
+    </td></tr>
+
+
+
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/wafr2012-b.jpg"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Learning to segment and track in RGBD</span> <BR>
+        <span class="authors">Alex Teichman and Sebastian Thrun.</span> <BR>
+        <span class="meeting">Workshop on the Algorithmic Foundations of Robotics (WAFR),</span>&nbsp;<span class="year">2012</span>. <BR>
+        <span class="summary">Tracking-based semi-supervised learning requires some method
+          of model-free segmentation and tracking. This paper describes a method
+          of model-free segmentation and tracking that can work in a broad range
+          of environments where segmentation is non-trivial.
+        </span>
+    </p>
+    <p>
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/wafr2012.pdf">pdf</a>,&nbsp;
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/wafr2012.bib">bib</a>
+    </p>
+    </td></tr>
+
+    
+
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/arso2011.png"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Practical object recognition in autonomous driving and beyond</span> <BR>
+        <span class="authors">Alex Teichman and Sebastian Thrun.</span> <BR>
+        <span class="meeting">IEEE Workshop on Advanced Robotics and its Social Impacts (ARSO),</span>&nbsp;<span class="year">2011</span>. <BR>
+        <span class="summary">This paper gives an overview of the recent object recognition
+          research in our lab and what is needed to make it a fully functional,
+          high accuracy object recognition system that is applicable beyond
+          perception for autonomous driving.
+        </span>
+    </p>
+    <p>
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/arso2011.pdf">pdf</a>,&nbsp;
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/arso2011.bib">bib</a>
+    </p>
+    </td></tr>
+
+
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/rss2011_b.jpg"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Tracking-based semi-supervised learning</span> <BR>
+        <span class="authors">Alex Teichman and Sebastian Thrun.</span> <BR>
+        <span class="meeting">Robotics: Science and Systems (RSS),</span>&nbsp;<span class="year">2011</span>. <BR>
+        <span class="summary">Building on previous work, we introduce a simple semi-supervised
+          learning method that uses tracking information to find new, useful training
+          examples automatically. This method achieves nearly the same accuracy
+          as before, but with about two orders of magnitude less human labeling effort.
+        </span>
+    </p>
+    <p>
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/rss2011.pdf">pdf</a>,&nbsp;
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/rss2011.bib">bib</a>,&nbsp;
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/rss2011.html">project</a>,&nbsp;
+        <a class="paperlink" href="http://www.roboticsproceedings.org/rss07/p42.html">RSS proceedings</a>
+    </p>
+    </td></tr>
+
+
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/icra2011.jpg"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Towards 3D object recognition via classification of arbitrary object tracks</span> <BR>
+        <span class="authors">Alex Teichman, Jesse Levinson, and Sebastian Thrun.</span> <BR>
+        <span class="meeting">International Conference on Robotics and Automation (ICRA),</span>&nbsp;<span class="year">2011</span>. <BR>
+        <span class="summary">Breaking down the object recognition problem into segmentation,
+          tracking, and track classification components, we show an accurate and
+          real-time method of classifying tracked objects as car, pedestrian,
+          bicyclist, or 'other'.
+        </span>
+    </p>
+    <p>
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/icra2011.pdf">pdf</a>,&nbsp;
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/icra2011.bib">bib</a>,&nbsp;
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/stc/">dataset</a>
+    </p>
+    </td></tr>
+
+
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/iv2011.jpg"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Towards fully autonomous driving: systems and algorithms</span> <BR>
+        <span class="authors">Jesse Levinson, Jake Askeland, Jan Becker, Jennifer Dolson, David Held,
+          Soeren Kammel, J. Zico Kolter, Dirk Langer, Oliver Pink, Vaughan Pratt,
+          Michael Sokolsky, Ganymed Stanek, David Stavens, Alex Teichman,
+          Moritz Werling, and Sebastian Thrun.</span> <BR>
+        <span class="meeting">Intelligent Vehicles Symposium,</span>&nbsp;<span class="year">2011.</span> <BR>
+        <span class="summary">This paper is a broad summary of recent work on Junior,
+          Stanford's autonomous vehicle. Topics covered include object recognition,
+          sensor calibration, planning, control, etc.
+        </span>
+    </p>
+    <p>
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/iv2011.pdf">pdf</a>,&nbsp;
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/iv2011.bib">bib</a>
+    </p>
+    </td></tr>
+
+
+
+    <tr><td><img src="/papers/ICRA2011.jpg"/></td>
+    <td>
     <p>
         <span class="papertitle">Traffic Light Mapping, Localization, and State Detection for Autonomous Vehicles</span> <BR>
         <span class="authors">Jesse Levinson, Jake Askeland, Jennifer Dolson, and Sebastian Thrun.</span> <BR>
@@ -324,12 +272,11 @@
         <a class="paperlink" href="/papers/ICRA2011.pdf">pdf</a>,&nbsp;
         <a class="paperlink" href="/papers/ICRA2011.bib">bib</a>
     </p>
+    </td></tr>
 
 
-.. |ISER2010_img| image:: /papers/ISER2010.jpg
-
-.. |ISER2010_desc| raw:: html
-
+    <tr><td><img src="/papers/ISER2010.jpg"/></td>
+    <td>
     <p>
         <span class="papertitle">Unsupervised Calibration for Multi-beam Lasers</span> <BR>
         <span class="authors">Jesse Levinson and Sebastian Thrun.</span> <BR>
@@ -348,12 +295,11 @@
         <a class="paperlink" href="/papers/ISER2010.pdf">pdf</a>,&nbsp;
         <a class="paperlink" href="/papers/ISER2010.bib">bib</a>
     </p>
+    </td></tr>
 
 
-.. |ICRA2010_img| image:: /papers/ICRA2010.jpg
-
-.. |ICRA2010_desc| raw:: html
-
+    <tr><td><img src="/papers/ICRA2010.jpg"/></td>
+    <td>
     <p>
         <span class="papertitle">Robust Vehicle Localization in Urban Environments Using Probabilistic Maps</span> <BR>
         <span class="authors">Jesse Levinson and Sebastian Thrun.</span> <BR>
@@ -370,12 +316,41 @@
         <a class="paperlink" href="/papers/ICRA2010.pdf">pdf</a>,&nbsp;
         <a class="paperlink" href="/papers/ICRA2010.bib">bib</a>
     </p>
+    </td></tr>
+
+
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/ijcai2009.jpg"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Exponential family sparse coding with application to self-taught learning</span> <BR>
+        <span class="authors">Honglak Lee, Rajat Raina, Alex Teichman, and Andrew Y. Ng.</span> <BR>
+        <span class="meeting">International Joint Conference on Artificial Intelligence (IJCAI),</span>&nbsp;<span class="year">2009.</span> <BR>
+        <span class="summary"> </span>
+    </p>
+    <p>
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijcai2009.pdf">pdf</a>,&nbsp;
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijcai2009.bib">bib</a>
+    </p>
+    </td></tr>
+
+
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/ijrr2008.jpg"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Automatic configuration recognition methods in modular robots</span> <BR>
+        <span class="authors">Michael Park, Sachin Chitta, Alex Teichman, Mark Yim</span> <BR>
+        <span class="meeting">International Journal of Robotics Research (IJRR),</span>&nbsp;<span class="year">2008.</span> <BR>
+        <span class="summary"> </span>
+    </p>
+    <p>
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijrr2008.pdf">pdf</a>,&nbsp;
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijrr2008.bib">bib</a>
+    </p>
+    </td></tr>
     
 
-.. |RSS2007_img| image:: /papers/RSS2007.jpg
-
-.. |RSS2007_desc| raw:: html
-
+    <tr><td><img src="/papers/RSS2007.jpg"/></td>
+    <td>
     <p>
         <span class="papertitle">Map-Based Precision Vehicle Localization in Urban Environments</span> <BR>
         <span class="authors">Jesse Levinson and Sebastian Thrun.</span> <BR>
@@ -395,3 +370,6 @@
         <a class="paperlink" href="/papers/RSS2007.pdf">pdf</a>,&nbsp;
         <a class="paperlink" href="/papers/RSS2007.bib">bib</a>
     </p>
+    </td></tr>
+    </table>
+
