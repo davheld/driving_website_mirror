@@ -84,6 +84,30 @@
 
 
 
+    <tr><td><img src="/papers/ICRA2013.jpg"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Precision Tracking with Sparse 3D and Dense Color 2D Data</span> <BR>
+        <span class="authors">David Held, Jesse Levinson, and Sebastian Thrun.</span> <BR>
+        <span class="meeting">International Conference on Robotics and Automation (ICRA),</span>&nbsp;<span class="year">2013.</span> <BR>
+        <span class="summary">Precision tracking is important for predicting
+          the behavior of other cars in autonomous driving. We present a novel
+          method to combine sparse laser data with a high-resolution camera image
+          to achieve accurate velocity estimates of moving objects. We present
+          a color-augmented, pre-filtered grid search algorithm to align the
+          points from a tracked object, thereby obtaining much more precise
+          estimates of the tracked vehicle’s velocity than were possible with
+          previous methods.
+        </span>
+    </p>
+    <p>
+        <a class="paperlink" href="/papers/ICRA2013.pdf">pdf</a>,&nbsp;
+        <a class="paperlink" href="/papers/ICRA2013.bib">bib</a>
+    </p>
+    </td></tr>
+
+
+
 
     <tr><td><img src="/papers/ISER2012.jpg"/></td>
     <td>
@@ -167,6 +191,29 @@
     <p>
         <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/wafr2012.pdf">pdf</a>,&nbsp;
         <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/wafr2012.bib">bib</a>
+    </p>
+    </td></tr>
+
+
+
+    <tr><td><img src="/papers/ICRA2012.jpg"/></td>
+    <td>
+    <p>
+        <span class="papertitle">A Probabilistic Framework for Object Detection in Images using Context and Scale</span> <BR>
+        <span class="authors">David Held, Jesse Levinson, and Sebastian Thrun.</span> <BR>
+        <span class="meeting">International Conference on Robotics and Automation (ICRA),</span>&nbsp;<span class="year">2012</span>. <BR>
+        <span class="summary">Detecting cars in real-world images is an important
+          task for autonomous driving, yet it remains unsolved. The system
+          described in this paper takes advantage of context and scale to build
+          a monocular single-frame image-based car detector that significantly
+          outperforms previous state-of-the-art methods.  By using a calibrated
+          camera and localization on a road map, we are able to obtain context
+          and scale information from a single image without the use of a 3D laser.
+        </span>
+    </p>
+    <p>
+        <a class="paperlink" href="/papers/ICRA2012.pdf">pdf</a>,&nbsp;
+        <a class="paperlink" href="/papers/ICRA2012.bib">bib</a>
     </p>
     </td></tr>
 
