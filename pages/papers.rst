@@ -322,6 +322,28 @@
     </td></tr>
 
 
+    <tr><td><img src="/papers/LevinsonThesis.jpg"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Automatic laser calibration, mapping, and localization for autonomous vehicles</span> <BR>
+        <span class="authors">Jesse Levinson.</span> <BR>
+        <span class="meeting">Thesis (Ph.D.), Stanford University,</span>&nbsp;<span class="year">2011.</span> <BR>
+        <span class="summary">This dissertation presents several related algorithms
+        that enable important capabilities for self-driving vehicles. These include
+        offline mapping and online map-based localization techniques using GPS, IMU,
+        and lasers, online localization without a prerecorded map as used in the
+        DARPA Urban Challenge, intrinsic and extrinsic calibration algorithms
+        for multi-beam lasers, and realtime detection of traffic lights.
+        </span>
+    </p>
+    <p>
+        <a class="paperlink" href="https://stacks.stanford.edu/file/druid:zx701jr9713/JesseThesisFinal2-augmented.pdf">pdf</a>,&nbsp;
+        <a class="paperlink" href="http://purl.stanford.edu/zx701jr9713">Stanford Library</a>,&nbsp;
+        <a class="paperlink" href="/papers/LevinsonThesis.bib">bib</a>
+    </p>
+    </td></tr>
+
+
     <tr><td><img src="/papers/ISER2010.jpg"/></td>
     <td>
     <p>
