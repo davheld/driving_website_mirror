@@ -11,54 +11,7 @@
     <table class="papertable">
     <tr><td class="img">&nbsp;</td><td class="desc">&nbsp;</td></tr>
 
-    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/rss2013-b.jpg"/></td>
-    <td>
-    <p>
-        <span class="papertitle">Unsupervised intrinsic calibration of depth sensors via SLAM</span> <BR>
-        <span class="authors">Alex Teichman, Stephen Miller, and Sebastian Thrun.</span> <BR>
-        <span class="meeting">Robotics: Science and Systems (RSS),</span>&nbsp;<span class="year">2013.</span> <BR>
-        <span class="summary">RGBD sensors such as the Xtion Pro Live or Kinect typically have
-          significant depth distortion beyond two or three meters. This paper introduces
-          a method of calibrating away the distortion just by recording data from a handheld sensor.
-          No calibration target, specialized hardware, or precise measurement is necessary.
-          The method is more generally applicable, too, as it requires only that the
-          intrinsic parameter in question be <i>myopic</i>: error in the parameter
-          setting generates greater measurement error as range increases.
-          This includes, for example, focal length and center pixel of a depth camera.
-        </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/rss2013.pdf">pdf</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/octo/clams/">code</a>,&nbsp;
-        <a class="paperlink" href="http://roboticsproceedings.org/rss09/p27.html">rss link</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/rss2013.bib">bib</a>
-    </p>
-    </td></tr>
-
     
-
-
-    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/tase2013-b.jpg"/></td>
-    <td>
-    <p>
-        <span class="papertitle">Learning to segment and track in RGBD</span> <BR>
-        <span class="authors">Alex Teichman, Jake Lussier, and Sebastian Thrun.</span> <BR>
-        <span class="meeting">IEEE Transactions on Automation Science and Engineering,</span>&nbsp;<span class="year">2013.</span> <BR>
-        <span class="summary">Extended journal version of previous work with the same title.
-          This paper includes algorithmic optimizations that enable real-time
-          segmentation and tracking of arbitrary objects, as well as an application
-          example in which we use the algorithm to train an object detector without
-          the usual hassles of a turntable or crowdsourced annotation.
-        </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/tase2013.pdf">pdf</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/tase2013.bib">bib</a>
-    </p>
-    </td></tr>
-
-
-
     <tr><td><img src="/papers/RSS2013.jpg"/></td>
     <td>
     <p>
@@ -156,7 +109,6 @@
     <p><a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/rss2012_presentation.pdf">presentation</a></p>
     </td></tr>
 
-    
 
     <tr><td><img src="http://cs.stanford.edu/people/teichman/img/ijrr2012.png"/></td>
     <td>
@@ -173,27 +125,6 @@
         <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijrr2012.bib">bib</a>
     </p>
     </td></tr>
-
-
-
-    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/wafr2012-b.jpg"/></td>
-    <td>
-    <p>
-        <span class="papertitle">Learning to segment and track in RGBD</span> <BR>
-        <span class="authors">Alex Teichman and Sebastian Thrun.</span> <BR>
-        <span class="meeting">Workshop on the Algorithmic Foundations of Robotics (WAFR),</span>&nbsp;<span class="year">2012</span>. <BR>
-        <span class="summary">Tracking-based semi-supervised learning requires some method
-          of model-free segmentation and tracking. This paper describes a method
-          of model-free segmentation and tracking that can work in a broad range
-          of environments where segmentation is non-trivial.
-        </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/wafr2012.pdf">pdf</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/wafr2012.bib">bib</a>
-    </p>
-    </td></tr>
-
 
 
     <tr><td><img src="/papers/ICRA2012.jpg"/></td>
@@ -402,21 +333,6 @@
     </p>
     </td></tr>
 
-
-    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/ijrr2008.jpg"/></td>
-    <td>
-    <p>
-        <span class="papertitle">Automatic configuration recognition methods in modular robots</span> <BR>
-        <span class="authors">Michael Park, Sachin Chitta, Alex Teichman, Mark Yim</span> <BR>
-        <span class="meeting">International Journal of Robotics Research (IJRR),</span>&nbsp;<span class="year">2008.</span> <BR>
-        <span class="summary"> </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijrr2008.pdf">pdf</a>,&nbsp;
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/ijrr2008.bib">bib</a>
-    </p>
-    </td></tr>
-    
 
     <tr><td><img src="/papers/RSS2007.jpg"/></td>
     <td>
