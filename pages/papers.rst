@@ -12,6 +12,56 @@
     <tr><td class="img">&nbsp;</td><td class="desc">&nbsp;</td></tr>
 
     
+    
+    <tr><td><img src="/papers/RSS2014.png"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Combining 3D Shape, Color, and Motion for Robust Anytime Tracking</span> <BR>
+        <span class="authors"> David Held, Jesse Levinson, Sebastian Thrun, Silvio Savarese.</span> <BR>
+        <span class="meeting">Robotics: Science and Systems (RSS),</span>&nbsp;<span class="year">2014.</span> <BR>
+        <span class="summary">Although object tracking has been studied for decades, real-time tracking algorithms often suffer from low accuracy and poor robustness when confronted with difficult, real-world data. We present a tracker that combines 3D shape, color (when available), and motion cues to accurately track moving objects in real-time. Our tracker allocates computational effort based on the shape of the posterior distribution. Starting with a coarse approximation to the posterior, the tracker successively refines this distribution, increasing in tracking accuracy over time. The tracker can thus be run for any amount of time, after which the current approximation to the posterior is returned. Even at a minimum runtime of 0.7 milliseconds, our method outperforms all of the baseline methods of similar speed by at least 10%. If our tracker is allowed to run for longer, the accuracy continues to improve, and it continues to outperform all baseline methods. Our tracker is thus anytime, allowing the speed or accuracy to be optimized based on the needs of the application. 
+        </span>
+    </p>
+    <p>
+        <a class="paperlink" href="http://www.roboticsproceedings.org/rss10/p14.html">pdf (rss)</a>,&nbsp;
+        <a class="paperlink" href="http://stanford.edu/~davheld/anytime_tracking.html">Project Page - Supplementary material, C++ code, poster, presentation</a>,&nbsp;
+        <a class="paperlink" href="/papers/RSS2014.bib">bib</a>
+    </p>
+    </td></tr>
+    
+    
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/iros2013-group_induction-c.jpg"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Group Induction</span> <BR>
+        <span class="authors">Alex Teichman and Sebastian Thrun.</span> <BR>
+        <span class="meeting">Proc. of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),</span>&nbsp;<span class="year">2013</span>. <BR>
+        <span class="summary">Tracking-based semi-supervised learning, as originally presented at RSS2011, was an offline algorithm. This is fine in some contexts, but ideally a user could provide new hand-labeled training examples online, as the system runs, without retraining from scratch. Qualitatively, this would mean the ability to point out - from the back seat of your autonomous car - a few examples of, say, an elliptical bike or sk8poler, and the algorithm would start learning to recognize them on the fly without you having to do anything else. Group induction is a mathematical framework for this kind of learning. 
+        </span>
+    </p>
+    <p>
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/iros2013-group_induction.pdf">pdf</a>,&nbsp;
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/iros2013-group_induction.bib">bib</a>
+    </p>
+    </td></tr>
+    
+    
+    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/iros2013-extrinsics-b.jpg"/></td>
+    <td>
+    <p>
+        <span class="papertitle">Unsupervised extrinsic calibration of depth sensors in dynamic scenes </span> <BR>
+        <span class="authors">Stephen Miller, Alex Teichman and Sebastian Thrun.</span> <BR>
+        <span class="meeting">Proc. of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),</span>&nbsp;<span class="year">2013</span>. <BR>
+        <span class="summary"> This paper shows how to find the relative pose of two stationary depth sensors using only motion cues. Like the CLAMS paper, no calibration target, specialized hardware, or precise measurement is necessary.
+        </span>
+    </p>
+    <p>
+        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/iros2013-extrinsics.bib">bib</a>
+    </p>
+    </td></tr>
+
+    
+    
     <tr><td><img src="/papers/RSS2013.jpg"/></td>
     <td>
     <p>
