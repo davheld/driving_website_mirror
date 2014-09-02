@@ -19,7 +19,7 @@
         <span class="papertitle">Combining 3D Shape, Color, and Motion for Robust Anytime Tracking</span> <BR>
         <span class="authors"> David Held, Jesse Levinson, Sebastian Thrun, Silvio Savarese.</span> <BR>
         <span class="meeting">Robotics: Science and Systems (RSS),</span>&nbsp;<span class="year">2014.</span> <BR>
-        <span class="summary">Although object tracking has been studied for decades, real-time tracking algorithms often suffer from low accuracy and poor robustness when confronted with difficult, real-world data. We present a tracker that combines 3D shape, color (when available), and motion cues to accurately track moving objects in real-time. Our tracker allocates computational effort based on the shape of the posterior distribution. Starting with a coarse approximation to the posterior, the tracker successively refines this distribution, increasing in tracking accuracy over time. The tracker can thus be run for any amount of time, after which the current approximation to the posterior is returned. Even at a minimum runtime of 0.7 milliseconds, our method outperforms all of the baseline methods of similar speed by at least 10%. If our tracker is allowed to run for longer, the accuracy continues to improve, and it continues to outperform all baseline methods. Our tracker is thus anytime, allowing the speed or accuracy to be optimized based on the needs of the application. 
+        <span class="summary">Improving on our ICRA 2013 paper, this new approach enables real-time probabilistic object tracking. Now, computational time is allocated dynamically according to the shape of the track’s posterior distribution. The algorithm is “anytime”, allowing speed or accuracy to be optimized based on the needs of the application. We currently use this method to track all dynamic obstacles seen by our autonomous vehicle, in real-time, with significantly improved accuracy compared to our previous Kalman-filter based approach. 
         </span>
     </p>
     <p>
@@ -29,6 +29,7 @@
     </p>
     </td></tr>
     
+
     
     <tr><td><img src="http://cs.stanford.edu/people/teichman/img/iros2013-group_induction-c.jpg"/></td>
     <td>
@@ -45,21 +46,6 @@
     </p>
     </td></tr>
     
-    
-    <tr><td><img src="http://cs.stanford.edu/people/teichman/img/iros2013-extrinsics-b.jpg"/></td>
-    <td>
-    <p>
-        <span class="papertitle">Unsupervised extrinsic calibration of depth sensors in dynamic scenes </span> <BR>
-        <span class="authors">Stephen Miller, Alex Teichman and Sebastian Thrun.</span> <BR>
-        <span class="meeting">Proc. of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),</span>&nbsp;<span class="year">2013</span>. <BR>
-        <span class="summary"> This paper shows how to find the relative pose of two stationary depth sensors using only motion cues. Like the CLAMS paper, no calibration target, specialized hardware, or precise measurement is necessary.
-        </span>
-    </p>
-    <p>
-        <a class="paperlink" href="http://cs.stanford.edu/people/teichman/papers/iros2013-extrinsics.bib">bib</a>
-    </p>
-    </td></tr>
-
     
     
     <tr><td><img src="/papers/RSS2013.jpg"/></td>
